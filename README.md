@@ -22,5 +22,7 @@ npm start
 
 The app will automatically launch in your browser.
 
+```
+
 ## MIT License
 

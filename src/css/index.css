@@ -155,3 +155,6 @@ h5, a {
 .QuestionContainer .list-group-item {
   background:#bcbdd7;
 }
+.label-success{
+  background:var(--main-blue)
+}

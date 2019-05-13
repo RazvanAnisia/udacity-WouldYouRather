@@ -15,12 +15,6 @@ import {
   removeQuestionVote,
   fetchQuestions } from './questions'
 
-/**
- * Users adds a new question. Action must:
- *  - make API call to save the question
- *  - update the questions portion of state
- *  - update the users portion of state
- */
 export function handleSaveQuestion (author, optionOneText, optionTwoText) {
   const question = {
     author: author,
@@ -39,12 +33,7 @@ export function handleSaveQuestion (author, optionOneText, optionTwoText) {
   }
 }
 
-/**
- * Users answers a question (votes). Action must:
- *  - make API call to save the answer
- *  - update the questions portion of state
- *  - update the users portion of state
- */
+
 export function handleVote (authedUser, qid, answer) {
   return (dispatch) => {
     dispatch(saveQuestionVote(authedUser, qid, answer))

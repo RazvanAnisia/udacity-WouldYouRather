@@ -1,11 +1,3 @@
-/*
- * Authed User Middleware
- *
- * Keeps the authedUser logged in even after browser refresh
- * by utilizing a cookie to remember the authed user name.
- * Why? I got tired of "logging in" whenever the app is refreshed.
- */
-
 import {
   SET_AUTHED_USER,
   GET_AUTHED_USER_FROM_COOKIE,
@@ -36,10 +28,6 @@ const authedUser = (store) => (next) => (action) => {
   }
 }
 
-/*
- * setCookie and getCookie functions obtained from w3schools at:
- * https://www.w3schools.com/js/js_cookies.asp
- */
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
