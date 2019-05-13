@@ -1,0 +1,157 @@
+:root{
+  --main-blue:rgb(57, 28, 184);
+  --border-radius:10px;
+  --dark-purple:#18026fe8;
+}
+body {
+  background:#000000e8;
+}
+/* General */
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+  background: #ecf0f1;
+}
+.navba-nav li a:hover {
+  color:#9b9dee !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-brand:hover {
+  color:#9b9dee !important;
+}
+.glyphicon {
+  margin-right: .3em;
+}
+
+.center {
+  text-align: center;
+}
+
+.loading {
+  height: 5px;
+  background-color: #9b59b6;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.loading-complete-appear {
+  opacity: 0.01;
+}
+
+.loading-complete-appear.loading-complete-appear-active {
+  opacity: 1;
+  transition: opacity .25s ease-in;
+}
+
+/* Sign in */
+.signin {
+  text-align: center;
+}
+.signin img {
+  margin-bottom: 1em;
+  height:8em;
+}
+
+/* Navigation */
+.navbar {
+  border-radius: 0;
+  background:var(--main-blue);
+}
+
+/* Avatars */
+.avatar {
+  width: 100%;
+  max-width: 150px;
+}
+
+.navbar-user-info .avatar {
+  display: inline-block;
+  margin: 0;
+  width: auto;
+  max-height: 1.8em;
+  margin-top: -.5em;
+  margin-left: .5em;
+}
+
+/* Questions */
+.question-list-container {
+  border-radius: 0;
+}
+.progress {
+  margin-bottom: .8em
+}
+.vote-summary {
+  font-size: .9em;
+  margin: 0 auto;
+  text-align: right;
+}
+
+/* Leaderboard */
+.leader-badge {
+  margin-right: 1em;
+}
+.leaderboard-stat span {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: .35em;
+  padding-right: .35em;
+  border-right: 1px dotted #EEEEEE;
+}
+
+.score {
+  text-align: center;
+}
+
+.btn-info {
+  background:var(--main-blue);
+  border:none;
+}
+.btn-info:hover {
+  background:#9b9dee;
+}
+.score .panel-body {
+  padding: 0 15px;
+}
+
+.score .panel-body p {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.panel-heading, .navbar-inverse .navbar-nav>.open>a{
+  background-color:var(--main-blue) !important;
+}
+.navbar-nav {
+  flex-direction: row;
+}
+.panel-default>.panel-heading {
+  color:white;
+}
+.panel-body{
+   background: var(--gray-dark);
+}
+.answered {
+  background: #9b9dee !important;
+}
+.score p {
+  color:white;
+}
+h5, a {
+  color:white;
+}
+.nav-tabs a {
+  color:#9b9dee;
+}
+.question-list-container {
+  background:#252829;
+}
+/* .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover{
+  background:#252829
+} */
+.navbar-inverse .navbar-brand:focus,.navbar .navbar-nav li a:focus{
+  color:aqua !important;
+}
+.QuestionContainer .list-group-item {
+  background:#bcbdd7;
+}
