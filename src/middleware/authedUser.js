@@ -1,7 +1,4 @@
-import {
-  SET_AUTHED_USER,
-  GET_AUTHED_USER_FROM_COOKIE,
-  LOGOUT_AUTHED_USER } from '../actions/authedUser'
+import { SET_AUTHED_USER, LOGOUT_AUTHED_USER, GET_AUTHED_USER_FROM_COOKIE } from '../actions/authedUser'
 
 const COOKIE_NAME = 'authedUser'
 const COOKIE_DURATION = 1
